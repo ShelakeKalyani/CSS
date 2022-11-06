@@ -1,0 +1,315 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu_first{
+	height: 60px;
+	width: 100%;
+	float: left;
+	background-color: #eeeeee;
+}
+
+.menu_logo{
+	height: 100%;
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+
+.menu_support{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.menu_support ul{
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+
+.menu_support li{
+	list-style-type: none;
+	display: inline;
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.menu_support i{
+	margin-right: 5px;
+}
+
+.menu_icons{
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+.menu_icons ul{
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.menu_icons li{
+	display: inline;
+	height: 30px;
+	width: 30px;
+	float: left;
+	background-color: #e9dbc8;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.menu_icons i{
+	margin-top: 6px;
+}
+
+.menu_icons li:hover{
+	background-color: #e74c14;
+	color: white;
+}
+
+@media(max-width: 667px){
+	.menu_logo{
+		display: none;
+	}
+	.menu_support, .menu_icons{
+		width: 100%;
+	}
+	.menu_first{
+		height: auto;
+	}
+}
+
+.menu_second{
+	height: 80px;
+	width: 100%;
+	float: left;
+	background-color: #e9dbc8;
+}
+
+.menu_logo_area{
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+
+.menu_option{
+	height: 100%;
+	width: 70%;
+	float: left;
+}
+
+.menu_option ul{
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+
+.menu_option li{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+	padding: 0px 7px 0px 7px;
+}
+
+.menu_option li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin-top: 30px;
+	float: left;
+	font-weight: bold;
+}
+
+.menu_option .active{
+	background-color: #e74c14;
+	height: 100%;
+}
+
+.menu_option .active a{
+	color: white;
+}
+
+
+.menu_option li:hover{
+	background-color: #e74c14;
+	height: 100%;
+}.menu_option li:hover a{
+	color: white !important;
+}
+
+.search_icon i{
+	margin-top: 30px;
+}
+
+.menu_logo_area img{
+	display: none;
+}
+
+.responsive_botton{
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	background-color: #e74c14;
+	color: white;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	display: none;
+}
+
+@media(max-width: 667px){
+	.menu_logo_area img{
+		display: inline-block;
+	}
+	.menu_second{
+		background-color: #e74c14;
+	}
+	.menu_option ul{
+		display: none;
+	}
+	.responsive_botton{
+		display: inline-block;
+	}
+}
+
+.slider_area{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-image: url('https://gloxy-react.envytheme.com/static/slide-bg-1-d528d449d91932aed63336d59b9439c9.jpg');
+	background-size: 100% 100%;
+}
+
+.slider_contain{
+	height: 100%;
+	width: 50%;
+	float: le/ft;
+}
+
+
+.slider_contain_padd{
+	padding: 100px 50px 0px 100px;
+}
+
+.slider_contain h3{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.slider_contain h1{
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+.slider_contain p{
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.slider_contain button{
+	background-color: #e74c14;
+	height: 50px;
+	width: 150px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+@media(max-width: 667px){
+	.slider_area{
+		height: 400px;
+	}
+	.slider_contain_padd{
+		padding: 10px;
+		text-align: center;
+	}
+	.slider_contain{
+		width: 100%;
+	}
+	.slider_contain h1{
+		font-size: 40px;
+	}
+}
+
+.slider_ser{
+	height: 300px;
+	width: 100%;
+	float: left;
+	margin-top: -100px;
+}
+
+.slider_ser_box{
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+
+.slider_ser_box_contain{
+	background-color: white;
+	height: 80%;
+	width: 80%;
+	float: left;
+	margin-top: 10%;
+	margin-left: 10;
+	border: 1px solid black;
+	border-radius: 5px;
+	/*box-shadow: 0px 1px 10px 0px black;*/
+	text-align: center;
+}
+
+.slider_ser_box_contain h1{
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.slider_ser_box_contain p{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.box_margin{
+	margin-left: 5%;
+}
+
+.slider_ser .active{
+	background-color: #e74c14;
+	color: white;
+}
+
+.icn{
+	font-size: 100px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.slider_ser_box_contain i{
+	color: #e74c14;
+}
+
+.slider_ser_box_contain:hover,i:hover{
+	color: white;
+	background-color: #e74c14;
+}
+
+/*.slider_ser_box i:hover{
+	color: white;
+}*/

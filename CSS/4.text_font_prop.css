@@ -1,0 +1,23 @@
+.font{
+	color: red;
+	text-align: center;
+	text-align-last: justify;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	text-decoration-style: dotted;
+	text-transform: uppercase;
+
+	text-indent: 100px;
+	word-spacing: 100px;
+	letter-spacing: 10px;
+	line-height: 3;
+
+	font-size: 30px;
+	font-weight: normal;
+	font-family: arial;
+	font-style: italic;
+
+	
+font-family: 'Combo', cursive;
+
+} 
